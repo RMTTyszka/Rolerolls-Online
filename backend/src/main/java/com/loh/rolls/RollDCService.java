@@ -11,7 +11,7 @@ public class RollDCService {
     private DiceRoller roller = new DiceRoller();
     private Integer difficultRange = 50;
     private Integer complexityRange = 10;
-    private Double numberOfRolls = 10000d;
+    private Double numberOfRolls = 1000d;
     private Integer standardDeviation = 5;
 
     public List<DcResult> getDC(Integer points, Integer bonus, Double chance) {

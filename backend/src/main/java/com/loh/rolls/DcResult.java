@@ -8,6 +8,6 @@ public class DcResult {
     public DcResult(Integer difficulty, Integer complexity, Double chance) {
         this.difficulty = difficulty;
         this.complexity = complexity;
-        this.chance = chance;
+        this.chance = (double) Math.round(chance * 100) / 100;
     }
 }
